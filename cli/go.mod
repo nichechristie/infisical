@@ -1,10 +1,10 @@
 module github.com/Infisical/infisical-merge
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/spf13/cobra v1.6.1
-	golang.org/x/crypto v0.3.0
+	golang.org/x/crypto v0.35.0
 )
 
 require (
@@ -12,8 +12,8 @@ require (
 	github.com/chzyer/readline v1.5.1 // indirect
 	github.com/danieljoos/wincred v1.1.2 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
-	golang.org/x/net v0.2.0 // indirect
-	golang.org/x/sys v0.2.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 )
 
 require (
